@@ -1,0 +1,33 @@
+:root {
+  --crypto-width: 300px;
+  --crypto-height: 180px;
+}
+
+.AddBorder {
+  border: 2px;
+  border-radius: 0%;
+  border-color: black;
+  border-style: solid;
+}
+
+.CryptoWidgetContainer {
+  width: var(--crypto-width);
+  height: var(--crypto-height);
+  text-align: center;
+  padding: 20px;
+}
+
+.SearchBox {
+  padding-left: 12px;
+  width: 100%;
+  height: 50px;
+  border-color: black;
+  border-style: solid;
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+.InformationBar {
+  display: flex;
+  justify-content: space-around;
+}
